@@ -21,26 +21,44 @@ This is a **Role-Based Access Control (RBAC) Application** built using **React**
 - **JavaScript (ES6+)**: For writing modern JavaScript code.
 - **CSS**: For styling the components and UI.
 
-## Project Structure
+## Installation
 
-RBAC-Dashboard/
-├── public/
-├── src/
-│   ├── components/
-│   │   ├── RoleBasedLayout.jsx
-│   │   ├── AdminActions.jsx
-│   │   ├── ModeratorActions.jsx
-│   │   ├── UserDashboard.jsx
-│   │   ├── UserManagement.jsx
-│   │   ├── RoleManagement.jsx
-│   │   ├── PermissionManagement.jsx
-│   ├── context/
-│   │   └── RoleContext.jsx
-│   ├── data/
-│   │   ├── roles.js
-│   │   └── mockData.js
-│   ├── api/
-│   │   └── mockApi.js
-│   ├── App.js
-│   ├── index.js
-│   ├── styles.css
+To get started with the project, clone this repository and install the required dependencies.
+
+### Step 1: Clone the repository
+
+```bash
+git clone https://github.com/yourusername/rbac-application.git
+cd rbac-application
+Step 2: Install dependencies
+Make sure you have Node.js and npm installed on your machine. Then run:
+
+bash
+Copy code
+npm install
+Step 3: Run the application
+bash
+Copy code
+npm start
+The application will start, and you can open it in your browser at http://localhost:3000.
+
+Configuration
+Static Data
+For testing purposes, the app uses static data for users, roles, and permissions. You can modify or add new roles, users, and permissions directly in the mockData.js file.
+
+Context API
+The app uses React's Context API to manage global state for users, roles, and permissions. You can find the context in the RoleContext.js file, where the state is initialized and shared across the components.
+
+Components
+User Management: Allows the admin to manage users (add, edit, delete users).
+Role Management: Lets the admin manage roles, assign roles to users, and view roles.
+Permission Management: Allows creating, updating, and assigning permissions to roles.
+User List: Displays a list of all users with actions for editing or deleting them.
+Usage
+User Management
+Search Users: You can search users by their name in the search bar.
+Filter by Role: Filter users based on their role, such as Admin, Moderator, User.
+Add User: You can add a new user by entering their name and assigning a role.
+Edit User: You can edit an existing user's name or role.
+csharp
+Copy code
