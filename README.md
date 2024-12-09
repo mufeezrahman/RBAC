@@ -25,7 +25,7 @@ This is a **Role-Based Access Control (RBAC) Application** built using **React**
 
 To get started with the project, clone this repository and install the required dependencies.
 
-### Step 1: Clone the repository
+Step 1: Clone the repository
 
 ```bash
 git clone https://github.com/yourusername/rbac-application.git
