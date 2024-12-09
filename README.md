@@ -25,20 +25,15 @@ This is a **Role-Based Access Control (RBAC) Application** built using **React**
 
 To get started with the project, clone this repository and install the required dependencies.
 
+```bash
 Step 1: Clone the repository
 
-```bash
-git clone https://github.com/yourusername/rbac-application.git
 cd rbac-application
 Step 2: Install dependencies
 Make sure you have Node.js and npm installed on your machine. Then run:
 
-bash
-Copy code
 npm install
 Step 3: Run the application
-bash
-Copy code
 npm start
 The application will start, and you can open it in your browser at http://localhost:3000.
 
@@ -60,5 +55,3 @@ Search Users: You can search users by their name in the search bar.
 Filter by Role: Filter users based on their role, such as Admin, Moderator, User.
 Add User: You can add a new user by entering their name and assigning a role.
 Edit User: You can edit an existing user's name or role.
-csharp
-Copy code
